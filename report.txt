@@ -1,26 +1,50 @@
-# Detailed Report - Task 7
+=============================
+ Cyber Security Internship
+ Task 7: Identify and Remove Suspicious Browser Extensions
+=============================
 
-## Step 1: Open Extensions Page
-Navigated to `chrome://extensions/` to review all installed extensions.
+Objective:
+----------
+Learned how to check, identify, and remove suspicious browser extensions
+to improve browser security.
 
-## Step 2: Review Extensions
-Installed extensions were: Grammarly, Dark Reader, Adblock Plus, and uTorrent for Chrome.
+Steps Followed:
+---------------
+1. Opened Chrome Extensions page using chrome://extensions/
+2. Reviewed all installed extensions.
+3. Checked permissions and Chrome security warnings.
+4. Identified "uTorrent for Chrome" as unsafe.
+5. Removed the suspicious extension.
+6. Restarted browser and verified functionality.
 
-## Step 3: Identify Suspicious Extension
-- Chrome flagged **"uTorrent for Chrome"** with a warning:
-  *“This extension violates the Chrome Web Store policy, and might be unsafe. Remove it from Chrome so it can no longer see and change your data on sites you visit, including your personal info.”*  
-- Permissions were excessive: access to all websites and user data.  
-- No trustworthy reviews or verified developer info.  
+Findings:
+---------
+Installed Extensions (Before Cleanup):
+  - Grammarly for Chrome      : Safe (Used for grammar checks)
+  - Dark Reader               : Safe (Open-source, dark mode)
+  - Adblock Plus              : Safe (Trusted ad blocker)
+  - uTorrent for Chrome       : UNSAFE (Violated policy, flagged by Chrome)
 
-## Step 4: Remove Suspicious Extension
-- Removed the **uTorrent for Chrome** extension from the browser.  
-- Restarted Chrome to ensure changes applied.  
+Actions Taken:
+--------------
+  - Removed: uTorrent for Chrome
+             Reason: Violates Chrome Web Store policy, requested excessive permissions
+  - Kept   : Grammarly, Dark Reader, Adblock Plus
 
-## Step 5: Verify After Cleanup
-- Verified remaining extensions: Grammarly, Dark Reader, Adblock Plus.  
-- No security warnings appeared.  
-- Browser performance improved slightly after removal.  
+Installed Extensions (After Cleanup):
+-------------------------------------
+  - Grammarly for Chrome
+  - Dark Reader
+  - Adblock Plus
 
-## Final Outcome
-Successfully identified and removed the unsafe **uTorrent for Chrome** extension.  
-System is now safer, and the browser only contains trusted extensions.  
+Key Learnings:
+--------------
+- Chrome automatically flags unsafe extensions like "uTorrent for Chrome".
+- Such extensions can access sensitive user data and violate policy.
+- Always check reviews, permissions, and publisher credibility.
+- Removing unused/unsafe extensions improves browser security and performance.
+
+Final Outcome:
+--------------
+Successfully identified and removed "uTorrent for Chrome".
+Browser is now safe and optimized with trusted extensions only.
