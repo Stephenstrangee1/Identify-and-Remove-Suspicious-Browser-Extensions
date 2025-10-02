@@ -30,13 +30,10 @@ The objective of this task is to identify and remove potentially harmful or unne
 
 ## Screenshots  
 - **Suspicious Extension (uTorrent for Chrome Warning)**  
-  ![uTorrent Warning](suspicious_extension.png)  
 
 - **Before Cleanup**  
-  ![Before Cleanup](before_cleanup.png)  
 
 - **After Cleanup**  
-  ![After Cleanup](after_cleanup.png)  
 
 ## Key Learnings  
 - Chrome can automatically flag and warn users about unsafe extensions.  
