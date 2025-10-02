@@ -1,26 +1,26 @@
-#  Task 7 - Identify and Remove Suspicious Browser Extensions  
+# 🚀 Task 7 - Identify and Remove Suspicious Browser Extensions  
 
-## Objective  
+## 🎯 Objective  
 The objective of this task is to identify and remove potentially harmful or unnecessary browser extensions to improve security and performance.  
 
 ## 🔧 Steps Followed  
 1. Opened Chrome Extensions page using `chrome://extensions/`.  
-2. Listed all installed extensions.  
-3. Checked permissions requested by each extension.  
-4. Cross-verified extensions in Chrome Web Store reviews.  
-5. Removed unnecessary or suspicious extensions.  
+2. Reviewed all installed extensions.  
+3. Checked permissions and Chrome security warnings.  
+4. Identified "uTorrent for Chrome" as unsafe.  
+5. Removed the suspicious extension.  
 6. Restarted browser and verified functionality.  
 
-## Findings  
+## 📊 Findings  
 
 ### Installed Extensions (Before Cleanup)
 - **Grammarly for Chrome** ✅ (Safe – used for grammar checks)  
 - **Dark Reader** ✅ (Safe – open-source, used for dark mode)  
-- **Free VPN Extension** ❌ (Suspicious – requested access to all data, unknown publisher)  
-- **Adblock Plus** ✅ (Safe – widely trusted)  
+- **Adblock Plus** ✅ (Safe – trusted, used for blocking ads)  
+- **uTorrent for Chrome** ❌ (Unsafe – flagged by Chrome, violates policy)  
 
 ### Actions Taken  
-- Removed: **Free VPN Extension** (too many permissions, unknown developer).  
+- Removed: **uTorrent for Chrome** (unsafe, violated Chrome Web Store policy, requested excessive permissions).  
 - Kept: Grammarly, Dark Reader, Adblock Plus.  
 
 ### Installed Extensions (After Cleanup)
@@ -29,6 +29,9 @@ The objective of this task is to identify and remove potentially harmful or unne
 - Adblock Plus  
 
 ## 📸 Screenshots  
+- **Suspicious Extension (uTorrent for Chrome Warning)**  
+  ![uTorrent Warning](suspicious_extension.png)  
+
 - **Before Cleanup**  
   ![Before Cleanup](before_cleanup.png)  
 
@@ -36,7 +39,7 @@ The objective of this task is to identify and remove potentially harmful or unne
   ![After Cleanup](after_cleanup.png)  
 
 ## 📝 Key Learnings  
-- Browser extensions can access sensitive information like browsing history, cookies, and even passwords.  
-- Always check **permissions and reviews** before installing.  
-- Remove unused or suspicious extensions regularly.  
-- Prefer open-source or well-reviewed extensions from trusted publishers.  
+- Chrome can automatically flag and warn users about unsafe extensions.  
+- Extensions like "uTorrent for Chrome" can **violate policies** and **access sensitive user data**.  
+- Always trust well-reviewed, verified extensions.  
+- Removing unused or unsafe extensions improves browser security and performance.  
