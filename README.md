@@ -40,6 +40,3 @@ The objective of this task is to identify and remove potentially harmful or unne
 - Always check **permissions and reviews** before installing.  
 - Remove unused or suspicious extensions regularly.  
 - Prefer open-source or well-reviewed extensions from trusted publishers.  
-
----
-✅ Task Completed Successfully  
