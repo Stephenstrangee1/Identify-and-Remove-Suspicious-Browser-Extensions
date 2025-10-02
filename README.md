@@ -1,6 +1,6 @@
-# 🚀 Task 7 - Identify and Remove Suspicious Browser Extensions  
+#  Task 7 - Identify and Remove Suspicious Browser Extensions  
 
-## 🎯 Objective  
+## Objective  
 The objective of this task is to identify and remove potentially harmful or unnecessary browser extensions to improve security and performance.  
 
 ## 🔧 Steps Followed  
@@ -11,7 +11,7 @@ The objective of this task is to identify and remove potentially harmful or unne
 5. Removed unnecessary or suspicious extensions.  
 6. Restarted browser and verified functionality.  
 
-## 📊 Findings  
+## Findings  
 
 ### Installed Extensions (Before Cleanup)
 - **Grammarly for Chrome** ✅ (Safe – used for grammar checks)  
