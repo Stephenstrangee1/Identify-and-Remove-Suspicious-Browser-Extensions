@@ -1,9 +1,9 @@
-# 🚀 Task 7 - Identify and Remove Suspicious Browser Extensions  
+# Task 7 - Identify and Remove Suspicious Browser Extensions  
 
-## 🎯 Objective  
+## Objective  
 The objective of this task is to identify and remove potentially harmful or unnecessary browser extensions to improve security and performance.  
 
-## 🔧 Steps Followed  
+## Steps Followed  
 1. Opened Chrome Extensions page using `chrome://extensions/`.  
 2. Reviewed all installed extensions.  
 3. Checked permissions and Chrome security warnings.  
@@ -11,7 +11,7 @@ The objective of this task is to identify and remove potentially harmful or unne
 5. Removed the suspicious extension.  
 6. Restarted browser and verified functionality.  
 
-## 📊 Findings  
+## Findings  
 
 ### Installed Extensions (Before Cleanup)
 - **Grammarly for Chrome** ✅ (Safe – used for grammar checks)  
@@ -28,7 +28,7 @@ The objective of this task is to identify and remove potentially harmful or unne
 - Dark Reader  
 - Adblock Plus  
 
-## 📸 Screenshots  
+## Screenshots  
 - **Suspicious Extension (uTorrent for Chrome Warning)**  
   ![uTorrent Warning](suspicious_extension.png)  
 
@@ -38,7 +38,7 @@ The objective of this task is to identify and remove potentially harmful or unne
 - **After Cleanup**  
   ![After Cleanup](after_cleanup.png)  
 
-## 📝 Key Learnings  
+## Key Learnings  
 - Chrome can automatically flag and warn users about unsafe extensions.  
 - Extensions like "uTorrent for Chrome" can **violate policies** and **access sensitive user data**.  
 - Always trust well-reviewed, verified extensions.  
